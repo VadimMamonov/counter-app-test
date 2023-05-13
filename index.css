@@ -1,0 +1,48 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0 auto;
+}
+
+.button {
+    font-family: inherit;
+}
+
+.counter {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.counter__value {
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.one__poolButton,
+.two__poolButton,
+.reset__poolButton {
+    margin-bottom: 36px;
+    display: block;
+    height: 100px;
+    width: 500px;
+    background: #4191FF;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.one__poolButton:hover,
+.two__poolButton:hover,
+.reset__poolButton:hover {
+    opacity: 0.7;
+}
+
+.reset__poolButton {
+    background: #D45366;
+}
+
